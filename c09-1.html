@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>表格列交錯樣式畫面</title>
+        <style>
+            .green{
+                border-right: #20c579; 
+                background-color: #20c579;
+            }
+            .gray{
+                background-color:  #D0D0D0;
+            }
+            table {
+                border-collapse: collapse;
+                width: 40%; 
+                border: solid 2px #D0D0D0;
+                font-family: Verdana,sans-serif;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th style="width: 30%;"></th><th>Hue</th><th>Hex</th><th>Rgb</th><th>Hs1</th>
+            </tr>
+            <tr class="green">
+                <td style="background-color: #ff0000;"></td><td>0</td><td>#ff0000</td><td>rgb(255, 0, 0)<td>hsl (0, 100%, 50%)</td>
+            </tr>
+            <tr >
+                <td style="background-color: #ff4000;"></td><td>15</td><td>#ff4000</td><td>rgb(255, 64, 0)</td><td>hsl (15, 100%, 50%)</td>
+            </tr>
+            <tr class="gray">
+                <td style="background-color:  #ff8000;"></td><td>30</td><td>#ff8000</td><td>rgb(255, 128, 0)</td><td>hsl (30, 100%, 50%)</td>
+            </tr>
+            <tr >
+                <td style="background-color: #ffbf00;"></td><td>45</td><td>#ffbf00</td><td>rgb(255, 191, 0)</td><td>hsl (45, 100%, 50%)</td>
+            </tr>
+            <tr class="gray">
+                <td style="background-color: #ffff00;"></td><td>60</td><td>#ffff00</td><td>rgb(255, 255, 0)</td><td>hsl (60, 100%, 50%)</td>
+            </tr>
+            <tr>
+                <td style="background-color: #bfff00;"></td><td>75</td><td>#bfff00</td><td>rgb(191, 255, 0)</td><td>hsl (75, 100%, 50%)</td>
+            </tr>
+            <tr class="gray">
+                <td style="background-color: #80ff00;"></td><td>90</td><td>#80ff00</td><td>rgb(128, 255, 0)</td><td>hsl (90, 100%, 50%)</td>
+            </tr>
+            <tr>
+                <td style="background-color: #40ff00;"></td><td>105</td><td>#40ff00</td><td>rgb(64, 255, 0)</td><td>hsl (105, 100%, 50%)</td>
+            </tr>
+            <tr class="gray">
+                <td style="background-color: #00ff00;"></td><td>120</td><td>#00ff00</td><td>rgb(0, 255, 0)</td><td>hsl (120, 100%, 50%)</td>
+            </tr>
+            <tr>
+                <td style="background-color: #00ff40;"></td><td>135</td><td>#00ff40</td><td>rgb(0, 255, 64)</td><td>hsl (135, 100%, 50%)</td>
+            </tr>
+            <tr class="gray">
+                <td style="background-color: #00ff80;"></td><td>150</td><td>#00ff80</td><td>rgb(0, 255, 128)</td><td>hsl (150, 100%, 50%)</td>
+            </tr>
+            <tr>
+                <td style="background-color: #00ffbf;"></td><td>165</td><td>#00ffbf</td><td>rgb(0, 255, 191)</td><td>hsl (165, 100%, 50%)</td>
+            </tr>
+            <tr class="gray">
+                <td style="background-color: #00ffff;"></td><td>180</td><td>#00ffff</td><td>rgb(0, 255, 255)</td><td>hsl (180, 100%, 50%)</td>
+            </tr>
+        </table>
+    </body>
+</html>

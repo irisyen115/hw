@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>顏色盤的排版樣式練習</title>
+        <style>
+            .out{
+                display: inline-table;
+                margin-left: 30px;
+            }
+            h3{
+                font-family: "Segoe UI",Arial,sans-serif;
+                font-weight: 400;
+                 margin: 10px 0;
+                text-align: center;
+                font-size: 24px
+            }
+            html, body{
+                font-family: Verdana,sans-serif;
+                font-size: 15px;
+                line-height: 1.5;
+            }
+            .design{
+                background-color: #ff0000;
+                text-align: center;
+                width: 250px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="out">
+            <div>
+                <h3>Pick a Color:</h3>
+                <img src="色盤.png" style="margin-top: 5px;">
+            </div>
+            <div>
+                <h3 style="margin-top: 50px;">Or Enter a color:</h3>
+                <form>
+                    <input type="text" placeholder="Color value"><input type="submit" value="Ok">
+                
+            </div>
+            <div>
+                <h3 style="margin-top: 30px;">Or Use Html5:</h3>
+                <input type="color" value="#ff0000" style="width: 200px;">
+            </form>
+            </div>
+        </div>
+        <div class="out">
+            <div>
+                <h3>Select color:</h3>
+                <div class="design">
+                    <br/>
+                    <br/>
+                    <span style="font-size: 20px;">Black text   </span>  
+                    <br/>
+                    <br/>
+                    <h3 style="text-shadow: 1px 1px 0 ">shadow</h3>
+                    <br/>
+                    <span style="font-size: 20px; color: white;">White text</span>
+                    <br/>
+                    <br/>
+                    <h3 style="color: white;text-shadow: 1px 1px 0 ;">shadow</h3>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <div style="margin-top: 16px">Red</div>
+                <div>
+                <b>
+                    <span>#ff0000</span>
+                </b>
+                </div>
+                <div>rgb(255, 0, 0)</div>
+                <div>hsl(0, 100%, 50%)</div>
+            </div>
+        </div>
+        <div class="out">
+            <h3>Lighter/Darker</h3>
+            <table>
+                <tr><td>100%</td><td style="width: 200px;background-color: #ffffff;"></td><td>#ffffff</td></tr>
+                <tr><td>95%</td><td style="width: 200px;background-color: #ffe6e6;"></td><td>#ffe6e6</td></tr>
+                <tr><td>90%</td><td style="width: 200px;background-color: #ffcccc;"></td><td>#ffcccc</td></tr>
+                <tr><td>85%</td><td style="width: 200px;background-color: #ffb3b3;"></td><td>#ffb3b3</td></tr>
+                <tr><td>80%</td><td style="width: 200px;background-color: #ff9999;"></td><td>#ff9999</td></tr>
+                <tr><td>75%</td><td style="width: 200px;background-color: #ff8080;"></td><td>#ff8080</td></tr>
+                <tr><td>70%</td><td style="width: 200px;background-color: #ff6666;"></td><td>#ff6666</td></tr>
+                <tr><td>65%</td><td style="width: 200px;background-color: #ff4d4d;"></td><td>#ff4d4d</td></tr>
+                <tr><td>60%</td><td style="width: 200px;background-color: #ff3333;"></td><td>#ff3333</td></tr>
+                <tr><td>55%</td><td style="width: 200px;background-color: #ff1a1a;"></td><td>#ff1a1a</td></tr>
+                <tr style="height: 50px;font-weight: bolder;"><td>50%</td><td style="width: 200px;background-color: #ff0000;"></td><td>#ff0000</td></tr>
+                <tr><td>45%</td><td style="width: 200px;background-color: #e60000;"></td><td>#e60000</td></tr>
+                <tr><td>40%</td><td style="width: 200px;background-color: #cc0000;"></td><td>#cc0000</td></tr>
+                <tr><td>35%</td><td style="width: 200px;background-color: #b30000;"></td><td>#b30000</td></tr>
+                <tr><td>30%</td><td style="width: 200px;background-color: #990000;"></td><td>#990000</td></tr>
+                <tr><td>25%</td><td style="width: 200px;background-color: #800000;"></td><td>#800000</td></tr>
+                <tr><td>20%</td><td style="width: 200px;background-color: #660000;"></td><td>#660000</td></tr>
+                <tr><td>15%</td><td style="width: 200px;background-color: #4d0000;"></td><td>#4d0000</td></tr>
+                <tr><td>10%</td><td style="width: 200px;background-color: #330000;"></td><td>#330000</td></tr>
+                <tr><td>5%</td><td style="width: 200px;background-color: #1a0000;"></td><td>#1a0000</td></tr>
+                <tr><td>0%</td><td style="width: 200px;background-color: #000000;"></td><td>#000000</td></tr>
+            </table>
+        </div>
+    </body>
+</html>
